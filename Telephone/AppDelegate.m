@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+//#import "Telephone-Swift.h"
 
 @interface AppDelegate ()
 
@@ -14,6 +15,28 @@
 
 @implementation AppDelegate
 
+static dispatch_once_t once;
+static NSOperationQueue *connectionQueue;
+
+/**
+prevents our app from becoming unresponsive while we wait for requests to finish
++ : class method, calls it on the class in which it is created -- in this case being AppDelegate
+ **/
++(NSOperationQueue *)connectionQueue{
+    dispatch_once(&once, ^{
+        connectionQueue = [[NSOperationQueue alloc] init];
+        [connectionQueue setMaxConcurrentOperationCount:5]; // we limit the user to too many requests to the api
+        [connectionQueue setName:@"com.theproductcompany.connectionqueue"];
+    });
+                  
+    return connectionQueue;
+}
+
+
+-(void)applicationDidFinishLaunching:(NSNotification *)aNotification{
+//    MKTextField *swiftObject = [[MKTextField alloc] init];
+//    [swiftObject run];
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.

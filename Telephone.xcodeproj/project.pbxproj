@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9744C2BE1B4B71AC008F43BE /* StyleKitName.m in Sources */ = {isa = PBXBuildFile; fileRef = 9744C2BD1B4B71AC008F43BE /* StyleKitName.m */; };
+		9744C2C81B4B79F4008F43BE /* BGView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9744C2C71B4B79F4008F43BE /* BGView.m */; };
 		97B84C021B487398001C854C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 97B84C011B487398001C854C /* main.m */; };
 		97B84C051B487398001C854C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 97B84C041B487398001C854C /* AppDelegate.m */; };
 		97B84C081B487398001C854C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97B84C071B487398001C854C /* ViewController.m */; };
@@ -14,6 +16,14 @@
 		97B84C0D1B487398001C854C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97B84C0C1B487398001C854C /* Images.xcassets */; };
 		97B84C101B487398001C854C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97B84C0E1B487398001C854C /* LaunchScreen.xib */; };
 		97B84C1C1B487398001C854C /* TelephoneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 97B84C1B1B487398001C854C /* TelephoneTests.m */; };
+		97BA19921B88F31D00DC31A8 /* CardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BA19901B88F31D00DC31A8 /* CardCell.m */; };
+		97BA19931B88F31D00DC31A8 /* CardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97BA19911B88F31D00DC31A8 /* CardCell.xib */; };
+		97BAD46D1B8768CF00AA6F0E /* NotesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BAD46C1B8768CF00AA6F0E /* NotesViewController.m */; };
+		97CAE9BD1B7D75CC00B360BC /* RequestsAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 97CAE9BC1B7D75CC00B360BC /* RequestsAPI.m */; };
+		97CDAEB91B7E7D1F00039E18 /* BGPROView.m in Sources */ = {isa = PBXBuildFile; fileRef = 97CDAEB81B7E7D1F00039E18 /* BGPROView.m */; };
+		97CDAEC41B7F9B1200039E18 /* BGMSGView.m in Sources */ = {isa = PBXBuildFile; fileRef = 97CDAEC31B7F9B1200039E18 /* BGMSGView.m */; };
+		97CDAEC71B81731F00039E18 /* OBJCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 97CDAEC61B81731F00039E18 /* OBJCard.m */; };
+		97FD1F031B7E332B00741A19 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FD1F021B7E332B00741A19 /* ProfileViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9744C2BC1B4B71AC008F43BE /* StyleKitName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StyleKitName.h; path = Telephone/StyleKitName.h; sourceTree = "<group>"; };
+		9744C2BD1B4B71AC008F43BE /* StyleKitName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StyleKitName.m; path = Telephone/StyleKitName.m; sourceTree = "<group>"; };
+		9744C2C61B4B79F4008F43BE /* BGView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGView.h; sourceTree = "<group>"; };
+		9744C2C71B4B79F4008F43BE /* BGView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGView.m; sourceTree = "<group>"; };
 		97B84BFC1B487398001C854C /* Telephone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Telephone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97B84C001B487398001C854C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97B84C011B487398001C854C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +54,22 @@
 		97B84C151B487398001C854C /* TelephoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TelephoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		97B84C1A1B487398001C854C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97B84C1B1B487398001C854C /* TelephoneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TelephoneTests.m; sourceTree = "<group>"; };
+		97BA198F1B88F31D00DC31A8 /* CardCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardCell.h; sourceTree = "<group>"; };
+		97BA19901B88F31D00DC31A8 /* CardCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardCell.m; sourceTree = "<group>"; };
+		97BA19911B88F31D00DC31A8 /* CardCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardCell.xib; sourceTree = "<group>"; };
+		97BAD46B1B8768CF00AA6F0E /* NotesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotesViewController.h; sourceTree = "<group>"; };
+		97BAD46C1B8768CF00AA6F0E /* NotesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotesViewController.m; sourceTree = "<group>"; };
+		97C00C5F1B54B55500B4EBB9 /* Telephone-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Telephone-Bridging-Header.h"; sourceTree = "<group>"; };
+		97CAE9BB1B7D75CC00B360BC /* RequestsAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestsAPI.h; sourceTree = "<group>"; };
+		97CAE9BC1B7D75CC00B360BC /* RequestsAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestsAPI.m; sourceTree = "<group>"; };
+		97CDAEB71B7E7D1F00039E18 /* BGPROView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BGPROView.h; path = Telephone/Views/BGPROView.h; sourceTree = "<group>"; };
+		97CDAEB81B7E7D1F00039E18 /* BGPROView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BGPROView.m; path = Telephone/Views/BGPROView.m; sourceTree = "<group>"; };
+		97CDAEC21B7F9B1200039E18 /* BGMSGView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGMSGView.h; sourceTree = "<group>"; };
+		97CDAEC31B7F9B1200039E18 /* BGMSGView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGMSGView.m; sourceTree = "<group>"; };
+		97CDAEC51B81731F00039E18 /* OBJCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OBJCard.h; path = Telephone/Views/OBJCard.h; sourceTree = "<group>"; };
+		97CDAEC61B81731F00039E18 /* OBJCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OBJCard.m; path = Telephone/Views/OBJCard.m; sourceTree = "<group>"; };
+		97FD1F011B7E332B00741A19 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		97FD1F021B7E332B00741A19 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,9 +93,14 @@
 		97B84BF31B487398001C854C = {
 			isa = PBXGroup;
 			children = (
+				97BA198F1B88F31D00DC31A8 /* CardCell.h */,
+				97BA19901B88F31D00DC31A8 /* CardCell.m */,
+				97BA19911B88F31D00DC31A8 /* CardCell.xib */,
+				97CDAEBB1B7E806A00039E18 /* Views */,
 				97B84BFE1B487398001C854C /* Telephone */,
 				97B84C181B487398001C854C /* TelephoneTests */,
 				97B84BFD1B487398001C854C /* Products */,
+				97C00C5F1B54B55500B4EBB9 /* Telephone-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,10 +116,16 @@
 		97B84BFE1B487398001C854C /* Telephone */ = {
 			isa = PBXGroup;
 			children = (
+				97BAD46B1B8768CF00AA6F0E /* NotesViewController.h */,
+				97BAD46C1B8768CF00AA6F0E /* NotesViewController.m */,
 				97B84C031B487398001C854C /* AppDelegate.h */,
 				97B84C041B487398001C854C /* AppDelegate.m */,
 				97B84C061B487398001C854C /* ViewController.h */,
 				97B84C071B487398001C854C /* ViewController.m */,
+				97FD1F011B7E332B00741A19 /* ProfileViewController.h */,
+				97FD1F021B7E332B00741A19 /* ProfileViewController.m */,
+				97CAE9BB1B7D75CC00B360BC /* RequestsAPI.h */,
+				97CAE9BC1B7D75CC00B360BC /* RequestsAPI.m */,
 				97B84C091B487398001C854C /* Main.storyboard */,
 				97B84C0C1B487398001C854C /* Images.xcassets */,
 				97B84C0E1B487398001C854C /* LaunchScreen.xib */,
@@ -117,6 +158,23 @@
 				97B84C1A1B487398001C854C /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		97CDAEBB1B7E806A00039E18 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				97CDAEC51B81731F00039E18 /* OBJCard.h */,
+				97CDAEC61B81731F00039E18 /* OBJCard.m */,
+				9744C2BC1B4B71AC008F43BE /* StyleKitName.h */,
+				9744C2BD1B4B71AC008F43BE /* StyleKitName.m */,
+				9744C2C61B4B79F4008F43BE /* BGView.h */,
+				9744C2C71B4B79F4008F43BE /* BGView.m */,
+				97CDAEB71B7E7D1F00039E18 /* BGPROView.h */,
+				97CDAEB81B7E7D1F00039E18 /* BGPROView.m */,
+				97CDAEC21B7F9B1200039E18 /* BGMSGView.h */,
+				97CDAEC31B7F9B1200039E18 /* BGMSGView.m */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +260,7 @@
 				97B84C0B1B487398001C854C /* Main.storyboard in Resources */,
 				97B84C101B487398001C854C /* LaunchScreen.xib in Resources */,
 				97B84C0D1B487398001C854C /* Images.xcassets in Resources */,
+				97BA19931B88F31D00DC31A8 /* CardCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +278,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97CDAEC41B7F9B1200039E18 /* BGMSGView.m in Sources */,
+				97BAD46D1B8768CF00AA6F0E /* NotesViewController.m in Sources */,
 				97B84C081B487398001C854C /* ViewController.m in Sources */,
+				97BA19921B88F31D00DC31A8 /* CardCell.m in Sources */,
 				97B84C051B487398001C854C /* AppDelegate.m in Sources */,
+				97CDAEC71B81731F00039E18 /* OBJCard.m in Sources */,
 				97B84C021B487398001C854C /* main.m in Sources */,
+				97CDAEB91B7E7D1F00039E18 /* BGPROView.m in Sources */,
+				9744C2BE1B4B71AC008F43BE /* StyleKitName.m in Sources */,
+				97FD1F031B7E332B00741A19 /* ProfileViewController.m in Sources */,
+				97CAE9BD1B7D75CC00B360BC /* RequestsAPI.m in Sources */,
+				9744C2C81B4B79F4008F43BE /* BGView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,9 +417,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = Telephone/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_MODULE_NAME = Telephone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Telephone-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -359,9 +432,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = Telephone/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_MODULE_NAME = Telephone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Telephone-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -418,6 +495,7 @@
 				97B84C211B487398001C854C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		97B84C221B487398001C854C /* Build configuration list for PBXNativeTarget "TelephoneTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +504,7 @@
 				97B84C241B487398001C854C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
